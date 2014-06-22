@@ -17,3 +17,10 @@ var pullPound = items.map(function (a) {
 	if (a.currency_code === 'GBP')
 		console.log (a.title)
 	});
+
+
+//3
+var fff = items.map(function (a) {
+	if (a.materials === 'wood')
+		console.log(a.title)
+	});
