@@ -1,4 +1,5 @@
 //1
+var eachPrice = items.map(function (a) {
 	return a.price;
 });
 
